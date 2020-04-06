@@ -1,0 +1,38 @@
+    <%- include('partials/header.ejs') %>
+    
+      <header>
+            <h1>
+               Java
+            </h1>
+        </header>
+        <nav>
+            <a href="/">Main</a>
+            <a href="/cplusplus">C++</a>
+            <a href="/java">Java</a>
+            <a href="/objectoriented" id="current">Object Oriented</a>
+        </nav>
+        <br /><br />
+        
+        <figure >
+            <img src="img/oop.jpg" id="objectpic" alt="picture"/>
+        </figure>
+        
+        <div id="oopexplain">
+        <p>C++ and Java are both caled Object Oriented Programming languages, which means that they incorporate encapsulation, absraction, 
+        inheritance, and polymorphism as part of their design principles.</p>
+        <p>Encapsulation is the act of putting data within an object, that can then only be accessed by that object,or throughthat object.
+        Examples of this are private members for classes, with public getters andsetters for those members.</p>
+        <p>Abstraction is the act of hiding non-essential informationfrom the user. What this means is that, rather than giving someone access 
+        to the a programs inner workings when theyneed to use it, you would only let them know of the functions that perform the actions the program can do.</p>
+        <p>Inheritance isthe basic concept of classes giving each other access to each others functions or objects. This is done so that the code writer doesn't 
+        have to create hundreds of identical objects, which decreases complexity.</p>
+        <p>Finally, polymorphism is the way that programs tell apart two objects or functions withthe same name, which is necessary in object oriented programming, 
+        due to all it's other features.</p>
+
+        </div>
+        
+        <footer>
+            <a href="https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/" >Souce One</a>
+            <a href="https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/" >Souce Two</a>
+        </footer>
+        <%- include('partials/footer.ejs') %>

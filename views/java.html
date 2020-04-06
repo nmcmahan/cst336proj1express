@@ -1,0 +1,38 @@
+<%- include('partials/header.ejs') %>
+
+<header>
+            <h1>
+               Java
+            </h1>
+        </header>
+        <nav>
+            <a href="/" >Main</a>
+            <a href="/cplusplus">C++</a>
+            <a href="/java"  id="current">Java</a>
+            <a href="/objectoriented">Object Oriented</a>
+        </nav>
+        <br /><br />
+        
+        <figure >
+            <img src="img/javalogo.png" id="javapic" alt="picture"/>
+        </figure>
+        
+        <div id="javaexplain">
+        <p>Much like how C++ began as a project to expand upon the C language, the origins of Java are based on people wanting to make a language that was simpler 
+        than c++, but with mostly the same functionality.</p>
+        <p>The development of java began in 1991 by James Gosling and a team of four others. In keeping with Javas declared goal of being a simple 
+        language, it was intendedto be able to compile successfully on almostany machine without too much configuration. 
+        This was done by having the code run on a virtual machine specifically made for running java code.</p>
+        <p>Java then released officially in 1995 with JDK 1.0, and has rapidly risen in popularity, with it regularly being at the top of the 
+        TIOBE index.</p>
+        <p>As a person who started to program in C++, and later moved to Java, I initially didn't like it, as it felt restrictive. 
+        However, after using it for a time, I have to admit that it's versatility has grown on me, especially for android development.</p>
+
+        </div>
+        
+        <footer>
+            <a href="https://www.freejavaguide.com/history.html" >Source One</a>
+            <a href="https://javabeginnerstutorial.com/core-java-tutorial/history-of-java/" >Source Two</a>
+            <a href="https://www.tiobe.com/tiobe-index/" >Source Three(TIOBE index)</a>
+        </footer>
+        <%- include('partials/footer.ejs') %>
